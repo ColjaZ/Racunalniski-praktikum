@@ -50,8 +50,25 @@ h2 {
     text-align: left;
     float: right;
     margin-left: 2em;
+    
 }
 .slika img  {
     width: 100%;
     height: auto;
+    border-radius: 50%;
 }
+.slika p:last-child {
+    font-size: 0.9em;
+    margin-top: 0;
+}
+.slika p{
+    margin-bottom: 0;
+}
+a {
+    color: #0000ff;
+    text-decoration: none;
+  }
+  
+  a::before {
+    content: '🔗';
+  }
